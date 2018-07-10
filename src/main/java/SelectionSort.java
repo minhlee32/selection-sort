@@ -1,5 +1,5 @@
 public class SelectionSort {
-    static double[] list = {0, 1, 1.5, 2.6, 9, 10.1, 3.8, 4.5, 3.6, 10.0, 15.5, 26.8};
+    private static double[] list = {0, 1, 1.5, 2.6, 9, 10.1, 3.8, 4.5, 3.6, 10.0, 15.5, 26.8};
 
     public static void main(String[] args) {
         printList(list);
@@ -11,8 +11,8 @@ public class SelectionSort {
     }
 
     private static void printList(double[] list) {
-        for (int i = 0; i < list.length; i++) {
-            System.out.print(list[i] + "\t");
+        for (double aList : list) {
+            System.out.print(aList + "\t");
         }
     }
 
